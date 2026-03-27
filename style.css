@@ -1,5 +1,6 @@
-html {
-  scroll-behavior: smooth;
+* {
+    scroll-behavior: smooth;
+    box-sizing: border-box;
 }
 
 body {
@@ -17,29 +18,29 @@ body {
 header {
     display: flex;
     justify-content: center; 
-    padding: 20px;
+    padding: 10px;
+    background-color: #1a1a1a;
 }
 
-header {
-    background-color: rgba(0, 0, 0, 0.3);
-    padding: 20px 0;
-    text-align: center;
-}
 .nav_items ul {
+    display: flex;
     list-style: none;
-    margin: 0;
-    padding: 0;
-    margin-left: -40px;
+    gap: 20px;
+    margin-left: -100px;
 }
 
 .nav_items ul li {
-    display: inline;
-    margin: 0 10px;
+    display: inline-block;
+    margin: 0 5px;
 }
 
-.nav_items ul li a {
+.nav_items a {
     text-decoration: none;
     color: #F5EBDD;
     font-weight: bold;
     font-size: 18px;
+}
+
+.nav_items a:hover {
+    color: #FFD700;
 }
