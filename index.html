@@ -3,6 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <title>Travelix</title>
 </head>
@@ -10,6 +12,11 @@
 
     
     <header>
+        <!-- Logo -->
+        <div class="logo">
+            <img src="images/Travelix_logo.png" alt="Travelix Logo">
+            <h1>Travelix</h1>
+        </div>
         <!-- Navigation Links -->
         <nav class="nav_items">
             <ul>
@@ -18,18 +25,33 @@
                 <li><a href="#contact">Contact Us</a></li>
             </ul>
         </nav>
+        <!-- Search Bar -->
+         <form class="search_bar">
+            <div class="search_input_container">
+                <img src="images/search_button.png" alt="search button">
+                <input type="text" placeholder="Search destinations...">
+            </div>
+            <button type="submit">Search</button>
+            <button type="reset">Clear</button>
+         </form>
     </header>
 
-
     <main>
-        <!-- Section -->
+        <!-- Home Section -->
         <section id="home">
-            <h1>Explore Dream Destination with Travelix</h1>
-            <p>Discover your next adventure! Our website helps you find the best destinations, 
-        offering tips and recommendations related to your interests. Explore, plan, and make your trips unforgettable!</p>
+            <aside class="social_links">
+                <a href="#instagram"><i class="fa-brands fa-instagram"></i></a>
+                <a href="#twitter"><i class="fa-brands fa-x-twitter"></i></a>
+                <a href="#facebook"><i class="fa-brands fa-facebook"></i></a>
+            </aside>
+            <h1><span class="explore">Explore</span><br>Dream Destination<br>with Travelix</h1>
+            <p>Discover your dream destinations, explore beautiful cities, and plan unforgettable trips.<br>
+            Travelix encourages the exploration and discovery of unfamiliar places and territories<br>
+            while providing the tools and information you need for a seamless travel experience.<br>
+            We are more than just a travel agency ; We help connecting you to the world while<br>
+            ensuring your travel experience aligns perfectly with your needs.</p>
         </section>
     </main>
-
 
      <script src="script.js"></script>
 </body>

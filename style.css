@@ -12,7 +12,6 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
-    height: 100vh;
     color: rgb(15, 14, 1);
 }
 
@@ -44,4 +43,139 @@ header {
 
 .nav_items a:hover {
     color: #FFD700;
+}
+
+.logo {
+    position: absolute;
+    left: 20px;
+    top: -3px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo img {
+    width: 70px;
+}
+
+.logo h1 {
+    color: #F5EBDD;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: Inconsolata, monospace;
+    margin: 0;
+    position: relative;
+    top: 3px;
+}
+
+.search_bar {
+    position: absolute;
+    display: flex;
+    right: 20px;
+    top: 18px;
+    gap: 10px;
+}
+
+.search_bar input {
+    padding: 10px 150px 10px 10px;
+    border: none;
+    border-radius: 30px;
+}
+
+.search_bar img {
+    position: absolute;
+    right: 175px;
+    top: 6px;
+    filter: invert(71%) sepia(100%) saturate(749%) hue-rotate(1deg) brightness(101%) contrast(101%);
+    opacity: 0.8;
+}
+
+.search_bar button {
+    padding: 5px 15px;
+    border: none;
+    border-radius: 5px;
+    background: #ffd900a3;
+    color: #F5EBDD;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.search_bar button:hover {
+    background: #FFD700;
+    color: #1a1a1a;
+}
+
+#home {
+    position: relative;
+    height: 100vh;
+}
+
+.social_links {
+    position: absolute;
+    flex-direction: column;
+    align-items: center;
+    top: 20px;
+    left: 20px;
+    display: flex;
+    gap: 30px;
+    color: #f5dde4;
+}
+
+.social_links i {
+    color: #F5EBDD;
+    font-size: 25px;
+}
+
+.social_links i:hover {
+    color: #FFD700;
+}
+
+.social_links::before,
+.social_links::after {
+    content: "";
+    width: 1px;
+    height: 200px;
+    background-color: #F5EBDD;
+}
+
+.social_links::before {
+    margin-bottom: 15px;
+}
+
+.social_links::after {
+    margin-top: 15px;
+}
+
+#home h1{
+    font-family: 'Montserrat';
+    font-size: 70px;
+    font-style: oblique;
+    color: #F5EBDD;
+    font-weight: 500;
+    line-height: 1.4;
+    position: absolute;
+    left: 150px;
+    top: 60px;
+}
+
+.explore {
+    color: #FFD700;
+    font-size: 90px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    font-style: oblique;
+}
+
+#home p {
+    text-align: left;
+    font-size: 15px;
+    font-weight: bolder;
+    font-style: italic;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+    color: #f8f8f8;
+    position: absolute;
+    left: 150px;
+    top: 450px;
+    line-height: 1.7;
 }
